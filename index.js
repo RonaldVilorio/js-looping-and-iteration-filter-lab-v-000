@@ -6,5 +6,5 @@ function fuzzyMatch(drivers,beginning_letters){
   return drivers.filter(function(d){return beginning_letters === d.slice(0,2)})
 }
 function matchName(drivers,name){
-
+  return drivers.filter(function(d){return d[name] === name})
 }
