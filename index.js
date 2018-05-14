@@ -7,5 +7,5 @@ function fuzzyMatch(drivers,beginning_letters){
 }
 function matchName(drivers,name){
   debugger
-  return drivers.filter(function(d){return d[2] === d})
+  return drivers.filter(function(d){return d[5] === d})
 }
