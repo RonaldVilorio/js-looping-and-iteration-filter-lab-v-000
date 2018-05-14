@@ -2,3 +2,6 @@
 function findMatching(drivers,driver){
    return drivers.filter(function(d){return driver.toUpperCase() === d.toUpperCase()} )
 }
+function fuzzyMatch(drivers,beginning_letters){
+  return
+}
